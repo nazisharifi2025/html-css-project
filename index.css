@@ -95,7 +95,7 @@ margin-top: 144%;
     position:relative;
     z-index: 987;
     font-size: 50px;
-    margin-left: 80%;    
+    margin-left: 75%;    
 }
 .span-0{
     color: gray;
@@ -123,8 +123,35 @@ padding: 5px;
     font-size: 30px;
 
 }
- /* .span-12{
-    font-size: 40px;
+  .span-12{
+    font-size: 50px;
     float: right;
     margin-right: 0;
-}  */ 
+    position: relative;
+    left: 20%;
+    top: 50%;
+    margin-top: 70px;
+}  
+.span-13{
+    font-size: 23px;
+    position: absolute;
+    left: 12%;
+    top: 308%;
+}
+.img-5{
+    width: 100%;
+    display: inline-block;
+}
+.all{
+    position: absolute;
+}
+.positon{
+    position: absolute;
+}
+.absolot{
+    margin-top: 155%;
+    width: 100%;
+}
+.img-6{
+    width: 100%;
+}
