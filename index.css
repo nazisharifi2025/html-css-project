@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.span-1{
+    font-size: 44px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.span-2{
+    font-size: 34px;
+    margin-top: 15px;
+}
+.span-3{
+    font-size: 40px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.img-box{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 5px;
+}
+.span-4{
+    font-size: 24px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+
+}
+.img-2{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+.img-3{
+    position: absolute;
+    z-index: 50;
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+     top: 45%;
+     left: 20px;
+
+}
+.span-5{
+    top: 52%;
+    z-index: 898;
+    font-size: 25px;
+    left: 11%;
+    position: absolute;
+    color: black;
+}
+.span-6{
+    top: 56%;
+    z-index: 898;
+    font-size: 25px;
+    left: 11%;
+    position: absolute;
+    color: black;
+}
+div.box{
+z-index: 987;
+}
+.span-7{
+    position: relative;
+margin-top: 144%;
+    z-index: 987;
+    font-size: 50px;
+    padding: 4px 10px;
+}
+.span-8{
+    position: relative;
+    z-index: 987;
+    font-size: 50px;   
+}
+.span-9{
+    position:relative;
+    z-index: 987;
+    font-size: 50px;
+    margin-left: 80%;    
+}
+.span-0{
+    color: gray;
+    font-size: 30px;
+}
+.span-10{
+    font-size: 30px;
+}
