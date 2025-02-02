@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: black;
     padding: 0;
     margin: 0;
@@ -53,6 +53,13 @@ a{
      left: 20px;
 
 }
+.span-11{
+    z-index: 897;
+    font-size: 55px;
+    position: absolute;
+    top: 45%;
+    left: 95%;
+}
 .span-5{
     top: 52%;
     z-index: 898;
@@ -97,12 +104,27 @@ margin-top: 144%;
 .span-10{
     font-size: 30px;
 }
-p{
+.img-4{
+   height:130px;
+   width: 130px;
+   border-radius: 50%;
+border: 2px solid lightcoral;
+padding: 5px;
+}
+.button{
+    border: 1px solid gray;
+    padding: 10px 30px;
+    border-radius: 6px;
+    float: right;
+    margin-top: 65px;
+    background-color: gray;
+    margin-right: 130px;
+    color: white;
+    font-size: 30px;
 
 }
-span{
-
-}
-form{
-    
-}
+ /* .span-12{
+    font-size: 40px;
+    float: right;
+    margin-right: 0;
+}  */ 

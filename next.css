@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+*{
+    font-family: cursive;
+    padding: 0;
+}
+ul{
+    background-color: cadetblue;
+    width: 100%;
+}
+ul li{
+    list-style: none;
+display: inline-block;
+position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+   z-index: 898;
+}
+ul li ul.drop li{
+    display: block;
+
+}
+.drop{
+    position: absolute;
+    display: none;
+    z-index: 898;
+}
+ul li:hover .drop{
+    display: block;
+}
+ul li a:hover{
+background-color: black;
+color: white;
+}
+.contener{
+    width: 90%;
+    height: 100vh;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1px;
+ margin-left: 50px;
+}
+.img-box{
+    height: 170px;
+    width: 170px;
+margin-left: 10px;
+    background-color:black ;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img-box img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img-box img:hover{
+height: 120%;
+width: 120%;
+z-index: 897;
+}
+.contener .img-box img ~ ::before{
+    content: "LIfe";
+    color: white;
+    font-size: 55px;
+    left: 20%;
+    top: 40%;
+}
+.check-1{
+    opacity:0;
+}
+.contener{
+    opacity: 0;
+}
+#check-3:checked ~ .contener{
+opacity: 1;
+}
+#check1:checked ~ .contener .check-1{
+opacity: 1;
+}
+.check-2{
+    opacity: 0;
+}
+#check-2:checked ~ .contener .check-2{
+    opacity: 1;
+}
+input{
+    display: none;
+}
+.img-box ::after{
+content: "flower";
+position: absolute;
+top: 20%;
+left: 20%;
+text-align: center;
+transition: .5s;
+transform: translate(-50%,-50%);
+font-size: 18px;
+color: white;
+margin-top: -40px;
+opacity: 0;
+}
+.img-box:hover ::after{
+margin-top: 0;
+opacity: 1;
+}
+.img-box ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom: 100px;
+    opacity: 0;
+    left: 0;
+    right: 100%;
+    width: 100%;
+    border-radius: 9px;
+}
+.img-box:hover ::before{
+    opacity: 1;
+    bottom: 0;
+}
+label{
+    font-size: 20px;
+    padding: 15px;
+    
+}
+/* label{
+    margin: 90px;
+font-size: 30px;
+background-color: cadetblue;
+padding: 20px;
+width: 100%;
+text-align: center;
+} */
+/*
+.img-box::before{
+content: "inclination";
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+transform: scaleZ(-50%,-50%);
+transition: .5s;
+font-size: 25px;
+margin-top: -60px;
+opacity: 0;
+z-index: 89;
+}
+.img-box:hover::before{
+margin-top: 0;
+opacity: 1;
+}
+.img-box::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100% ;
+    width: 100%;
+    opacity: 0;
+    bottom: -100px;
+}
+.img-box:hover::after{
+    opacity: .5;
+    bottom: 0;
+    height: 100%;
+}
