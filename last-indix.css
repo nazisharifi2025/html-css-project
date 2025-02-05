@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(34, 32, 32);
+    margin: 0;
+    padding: 0;
+    color: white;
+    z-index: 0;
+}
+.img-box{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+}
+.img-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid palevioletred;
+}
+.img-box img:visited{
+    border: 1px solid gray;
+}
+div.s-S{
+   margin-left: 130px;
+   top: 50px;
+   position: relative;
+}
+.naz{
+    color: gray;
+}
+.sto{
+    font-size: 21px;
+}
+.button-24{
+    margin-right: 130px;
+    font-size: 27px;
+    padding: 10px 20px;
+    background-color: rgb(124, 120, 120);
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 5px;
+    color: white;
+    float: right;
+
+}
+.span-111{
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.div-img{
+    width: 100%;
+
+}
+.imgs{
+    width: 100%;
+    margin-top: 50px;
+}
+.span-7{
+font-size: 40px;
+}
+.span-8{
+    font-size: 40px;
+}
+.span-9{
+    font-size: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.span-0{
+font-size: 23px;
+color: gray;
+}
+.span-10{
+    font-size: 23px;
+}
+.strong{
+    font-size: 20px;
+}
+.d{
+    animation:myimg 3s infinite  ;
+}
+@keyframes myimg{
+    0%{background: url("img-box/bag-5.jpg");background-attachment: fixed;}
+    100%{background: url("img-box/k-b_18.jpg");background-attachment: fixed;}
+}
