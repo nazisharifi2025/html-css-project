@@ -276,7 +276,7 @@ z-index: 989;
     position:absolute;
     top: 380px;
 }
-.naz-box{
+.aal-imgebox{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -301,7 +301,4 @@ border: 1px solid gray;
 .s-s{
     margin-left: 40px;
     font-size: 20px;
-}
-h1{
-    
 }

@@ -50,7 +50,7 @@ div.s-S{
     float: right;
     margin-right: 50px;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .div-img{
     width: 100%;
@@ -90,4 +90,23 @@ color: gray;
 @keyframes myimg{
     0%{background: url("img-box/bag-5.jpg");background-attachment: fixed;}
     100%{background: url("img-box/k-b_18.jpg");background-attachment: fixed;}
+}
+@media (max-width:858px) {
+    .button-24{
+        margin-right: 40px;
+        font-size: 18px;
+        padding: 8px 15px;
+        background-color: rgb(124, 120, 120);
+        border: 1px solid rgb(124, 120, 120);
+        border-radius: 5px;
+        color: white;
+        float: right;
+    
+    }
+    .span-111{
+        float: right;
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 8px;
+    }
 }
