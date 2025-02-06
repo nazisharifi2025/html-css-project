@@ -242,6 +242,10 @@ div.div-1{
     color: white;
     border-radius: 6px;
 }
+@keyframes myimg {
+    0%{background: url("");}
+    100%{background: url("img-box/a_16.jpg");background-attachment: fixed;}
+}
 .span-e{
     background-color: rgb(53, 53, 53);
     border: 1px solid rgb(53, 53, 53);
