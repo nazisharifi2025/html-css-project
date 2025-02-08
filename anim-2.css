@@ -11,7 +11,7 @@ body{
    margin-top: 200px;
     background-color: blue;
    animation: div 5s infinite;
-    margin-left: 570px;
+    margin-left: 100px;
 }
 @keyframes div{
     0%{background-color: blueviolet;}
@@ -30,6 +30,33 @@ body{
 @keyframes naz{
     0%{transform: rotatez(300deg);border-radius: 50%;transform: 10s;}
 }
-div{
-    
+div.box{
+    background-color: blue;
+    height: 230px;
+    width: 230px;
+    float: right;
+margin-right: 100px;
+border-radius: 50%;
+margin-bottom: 100px;
+position: absolute;
+top: 30%;
+left: 60%;
+
+}
+.smal-box{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    left: 68%;
+    animation: box 5s infinite;
+    animation-duration: alternate;
+}
+@keyframes box{
+    0%{left: 69;}
+    10%{left: 72%;bottom: 14px;}
+    20%{left: 72%;right: 19%;}
+  
+  
 }
