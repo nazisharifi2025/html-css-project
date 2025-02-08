@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+
+.contener{
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+   margin-top: 200px;
+    background-color: blue;
+   animation: div 5s infinite;
+    margin-left: 570px;
+}
+@keyframes div{
+    0%{background-color: blueviolet;}
+    40%{background-color: rgb(7, 1, 14);}
+    80%{background-color: rgb(238, 235, 241);}
+    100%{background-color: rgb(100, 88, 49);}
+}
+
+.imgr{
+    height: 200px;
+    width: 200px;
+   
+    animation: naz 5s infinite;
+    border: 2px solid wheat;
+}
+@keyframes naz{
+    0%{transform: rotatez(300deg);border-radius: 50%;transform: 10s;}
+}

@@ -20,7 +20,12 @@ body{
     margin-right: 15px;
     margin-top: 20px;
 }
-.img-box{
+a{
+    text-decoration: none;
+    color: gray;
+
+}
+.img-box-1{
     border-radius: 50%;
     height: 120px;
     width: 120px;
@@ -32,249 +37,6 @@ body{
 .span-4{
     font-size: 24px;
     margin-left: 40px;
-}
-a{
-    text-decoration: none;
-    color: gray;
-
-}
-.img-2{
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 250px;
-}
-.img-3{
-    position: absolute;
-    z-index: 50;
-    height: 115px;
-    width: 115px;
-    border-radius: 50%;
-     top: 45%;
-     left: 20px;
-
-}
-.span-11{
-    z-index: 897;
-    font-size: 55px;
-    position: absolute;
-    top: 45%;
-    left: 95%;
-}
-.span-5{
-    top: 52%;
-    z-index: 898;
-    font-size: 25px;
-    left: 11%;
-    position: absolute;
-    color: black;
-}
-.span-6{
-    top: 56%;
-    z-index: 898;
-    font-size: 25px;
-    left: 11%;
-    position: absolute;
-    color: black;
-}
-div.box{
-z-index: 987;
-}
-.span-7{
-    position: relative;
-margin-top: 144%;
-    z-index: 987;
-    font-size: 50px;
-    padding: 4px 10px;
-}
-.span-8{
-    position: relative;
-    z-index: 987;
-    font-size: 50px;   
-}
-.span-9{
-    position:relative;
-    z-index: 987;
-    font-size: 50px;
-    margin-left: 75%;    
-}
-.span-0{
-    color: gray;
-    font-size: 30px;
-}
-.span-10{
-    font-size: 30px;
-}
-.img-4{
-   height:130px;
-   width: 130px;
-   border-radius: 50%;
-border: 2px solid lightcoral;
-padding: 5px;
-position: relative;
-top: 120px
-;
-}
-.img-10{
-    height:130px;
-    width: 130px;
-    border-radius: 50%;
- border: 2px solid lightcoral;
- padding: 5px;
-}
-.button-2{
-    border: 1px solid gray;
-    padding: 10px 30px;
-    border-radius: 6px;
-    margin-left: 890px;
-position: absolute;
-top: 170px;
-background-color: gray;
-    color: white;
-    font-size: 30px;
-    z-index: 989;
-
-}
-.button-1{
-    border: 1px solid gray;
-    padding: 10px 30px;
-    border-radius: 6px;
-    margin-left: 890px;
-position: absolute;
-top:2530px;
-background-color: gray;
-    color: white;
-    font-size: 30px;
-    z-index: 898;
-}
-.span-121{
-    font-size: 50px;
-    float: right;
-  margin-right: 50px;
-  margin-left: 1090px;
-    position: relative;
-    top: 30px;
-}
-.span-12{
-    font-size: 50px;
-    float: right;
-    margin-left: 1090px;
-    position: relative;
-    top: 170px;
-}
-.span-13{
-    font-size: 23px;
-    position: absolute;
-    left: 12%;
-    top: 110%;
-}
-.span-131{
-    font-size: 23px;
-    position: absolute;
-    left: 12%;
-    top: 420%;
-}
-.img-5{
-    width: 100%;
-    display: inline-block;
-}
-.alll{
-    position:absolute;
-    top:2620px;
-    z-index: 989;
-}
-.ali{
-    position:absolute;
-    top:21.3%;
-    z-index: 989;
-}
-.all{
-    position:absolute;
-    top:2220px;
-    z-index: 989;
-}
-
-.absolot{
-    margin-top: 175%;
-    width: 100%;
-    
-}
-.img-6{
-    width: 100%;
-}
-.img-boxx{
-    width: 100%;
-    position:absolute;
-    top: 4720px;
-}
-.img-jan{
-position: absolute;
-top: 4434px;
-z-index: 989;
-}
-.positon-n{
-    position: relative;
-    top: 500%;
-}
-.img-22{
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 600px;
-}
-.img-33{
-    position: absolute;
-    z-index: 50;
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    top: 430px;
-     left: 20px;
-     border: 2px solid rgb(248, 187, 187);
-     padding: 3px;
-}
-.span-55{
-    top: 480px;
-    z-index: 898;
-    font-size: 25px;
-    left: 13%;
-    position: absolute;
-    color:white;
-}
-.span-66{
-    top: 503px;
-    z-index: 898;
-    font-size: 25px;
-    left: 13%;
-    position: absolute;
-    color: white;
-}
-.span-111{
-    z-index: 897;
-    font-size: 55px;
-    position: absolute;
-    top: 470px;
-    left: 92%;
-}
-.button-24{
-    border: 1px solid gray;
-    padding: 10px 30px;
-    border-radius: 6px;
-    margin-left: 1000px;
-    position: absolute;
-    top: 470px;
-    background-color: gray;
-    color: white;
-    font-size: 30px;
-    z-index: 989;
-}
-.button-24:hover{
-    background-color: rgb(221, 218, 218);
-}
-.box-o{
-    width: 100%;
-    position:absolute;
-    top: 380px;
 }
 .aal-imgebox{
     width: 100%;
@@ -295,10 +57,416 @@ z-index: 989;
     border-radius: 50%;
     border: 2px solid palevioletred;
     padding: 3px;
-}.img-naz:any-link{
-border: 1px solid gray;
 }
 .s-s{
     margin-left: 40px;
     font-size: 20px;
+}
+.img-box{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+}
+.img-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid palevioletred;
+}
+div.s-S{
+   margin-left: 130px;
+   top: 50px;
+   position: relative;
+}
+.naz{
+    color: gray;
+}
+.sto{
+    font-size: 21px;
+}
+.button-24{
+    margin-right: 130px;
+    font-size: 27px;
+    padding: 10px 20px;
+    background-color: rgb(124, 120, 120);
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 5px;
+    color: white;
+    float: right;
+
+}
+.span-111{
+    font-size: 30px;
+    margin-top: 10px;
+    z-index: 989;
+    margin-left:px;
+    float: right;
+}
+.span-19{
+    font-size: 40px;
+    margin-top: 10px;
+    z-index: 989;
+    float: right;
+}
+.div-img{
+    width: 100%;
+
+}
+.imgs{
+    width: 100%;
+    margin-top: 50px;
+}
+.span-7{
+font-size: 40px;
+}
+.span-8{
+    font-size: 40px;
+}
+.span-9{
+    font-size: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.span-0{
+font-size: 23px;
+color: gray;
+}
+.span-10{
+    font-size: 23px;
+}
+.strong{
+    font-size: 20px;
+}
+.box-o{
+    margin-left: 10px;
+}
+.d{
+    animation:myimg 3s infinite  ;
+}
+@keyframes myimg{
+    0%{background: url("img-box/bag-5.jpg");background-attachment: fixed;}
+    100%{background: url("img-box/k-b_18.jpg");background-attachment: fixed;}
+}
+@media (max-width:858px) {
+    .button-24{
+        margin-right: 40px;
+        font-size: 18px;
+        padding: 8px 15px;
+        background-color: rgb(124, 120, 120);
+        border: 1px solid rgb(124, 120, 120);
+        border-radius: 5px;
+        color: white;
+        float: right;
+    
+    }
+    .span-111{
+        float: right;
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 8px;
+    }
+}
+@media (max-width:952){
+    .span-1{
+        font-size: 44px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .span-2{
+        font-size: 34px;
+        margin-top: 15px;
+    }
+    .span-3{
+        font-size: 40px;
+        float: right;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    .img-box{
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        margin-left: 30px;
+        margin-top: 15px;
+        border: 1px solid rgb(112, 112, 112);
+        padding: 5px;
+    }
+    .span-4{
+        font-size: 24px;
+        margin-left: 40px;
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+    
+    }
+    .img-2{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 250px;
+    }
+    .img-3{
+        position: absolute;
+        z-index: 50;
+        height: 115px;
+        width: 115px;
+        border-radius: 50%;
+         top: 45%;
+         left: 20px;
+    
+    }
+    .span-11{
+        z-index: 897;
+        font-size: 55px;
+        position: absolute;
+        top: 45%;
+        left: 95%;
+    }
+    .span-5{
+        top: 52%;
+        z-index: 898;
+        font-size: 25px;
+        left: 15%;
+        position: absolute;
+        color: black;
+    }
+    .span-6{
+        top: 56%;
+        z-index: 898;
+        font-size: 25px;
+        left: 40%;
+        position: absolute;
+        color: black;
+    }
+    div.box{
+    z-index: 987;
+    }
+    .span-7{
+        position: relative;
+    margin-top: 144%;
+        z-index: 987;
+        font-size: 50px;
+        padding: 4px 10px;
+    }
+    .span-8{
+        position: relative;
+        z-index: 987;
+        font-size: 50px;   
+    }
+    .span-9{
+        position:relative;
+        z-index: 987;
+        font-size: 50px;
+        margin-left: 75%;    
+    }
+    .span-0{
+        color: gray;
+        font-size: 30px;
+    }
+    .span-10{
+        font-size: 30px;
+    }
+    .img-4{
+       height:130px;
+       width: 130px;
+       border-radius: 50%;
+    border: 2px solid lightcoral;
+    padding: 5px;
+    position: relative;
+    top: 120px
+    ;
+    }
+    .img-10{
+        height:130px;
+        width: 130px;
+        border-radius: 50%;
+     border: 2px solid lightcoral;
+     padding: 5px;
+    }
+    .button-2{
+        border: 1px solid gray;
+        padding: 10px 30px;
+        border-radius: 6px;
+        margin-left: 890px;
+    position: absolute;
+    top: 170px;
+    background-color: gray;
+        color: white;
+        font-size: 30px;
+        z-index: 989;
+    
+    }
+    .button-1{
+        border: 1px solid gray;
+        padding: 10px 30px;
+        border-radius: 6px;
+        margin-left: 890px;
+    position: absolute;
+    top:2530px;
+    background-color: gray;
+        color: white;
+        font-size: 30px;
+        z-index: 898;
+    }
+    .span-121{
+        font-size: 50px;
+        float: right;
+      margin-right: 50px;
+      margin-left: 1090px;
+        position: relative;
+        top: 30px;
+    }
+    .span-12{
+        font-size: 50px;
+        float: right;
+        margin-left: 1090px;
+        position: relative;
+        top: 170px;
+    }
+    .span-13{
+        font-size: 23px;
+        position: absolute;
+        left: 12%;
+        top: 110%;
+    }
+    .span-131{
+        font-size: 23px;
+        position: absolute;
+        left: 12%;
+        top: 420%;
+    }
+    .img-5{
+        width: 100%;
+        display: inline-block;
+    }
+    .alll{
+        position:absolute;
+        top:2620px;
+        z-index: 989;
+    }
+    .ali{
+        position:absolute;
+        top:21.3%;
+        z-index: 989;
+    }
+    .all{
+        position:absolute;
+        top:2220px;
+        z-index: 989;
+    }
+    
+    .absolot{
+        margin-top: 175%;
+        width: 100%;
+        
+    }
+    .img-6{
+        width: 100%;
+    }
+    .img-boxx{
+        width: 100%;
+        position:absolute;
+        top: 4720px;
+    }
+    .img-jan{
+    position: absolute;
+    top: 4434px;
+    z-index: 989;
+    }
+    .positon-n{
+        position: relative;
+        top: 500%;
+    }
+    .img-22{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 600px;
+    }
+    .img-33{
+        position: absolute;
+        z-index: 50;
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        top: 430px;
+         left: 20px;
+         border: 2px solid rgb(248, 187, 187);
+         padding: 3px;
+    }
+    .span-55{
+        top: 480px;
+        z-index: 898;
+        font-size: 25px;
+        left: 13%;
+        position: absolute;
+        color:white;
+    }
+    .span-66{
+        top: 503px;
+        z-index: 898;
+        font-size: 25px;
+        left: 13%;
+        position: absolute;
+        color: white;
+    }
+    .span-111{
+        z-index: 897;
+        font-size: 55px;
+        position: absolute;
+        top: 470px;
+        left: 92%;
+    }
+    .button-24{
+        border: 1px solid gray;
+        padding: 10px 30px;
+        border-radius: 6px;
+        margin-left: 1000px;
+        position: absolute;
+        top: 470px;
+        background-color: gray;
+        color: white;
+        font-size: 30px;
+        z-index: 989;
+    }
+    .button-24:hover{
+        background-color: rgb(221, 218, 218);
+    }
+    .box-o{
+        width: 100%;
+        position:absolute;
+        top: 380px;
+    }
+    .aal-imgebox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+    }
+    .n-img{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-left: 15px;
+    
+    }
+    .img-naz{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 2px solid palevioletred;
+        padding: 3px;
+    }.img-naz:any-link{
+    border: 1px solid gray;
+    }
+    .s-s{
+        margin-left: 40px;
+        font-size: 20px;
+    }
 }

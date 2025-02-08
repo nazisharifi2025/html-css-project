@@ -13,7 +13,7 @@ body{
    justify-content: center;
    margin-left: 31%;
    margin-top: 40px;
-   border-radius: 20px;
+   border-radius: 34px;
    animation: div 4s infinite;
 }
 @keyframes div{
@@ -23,7 +23,6 @@ body{
 img.img{
     height: 160px;
     width: 160px;
-    border-radius: 50%;
 position: absolute;
 right:48%;
 top: 82px;
@@ -32,7 +31,7 @@ padding: 3px;
 }
 @keyframes border{
     0%{border: 2px solid white; border-radius: 50%;}
-    100%{border: 2px solid rgb(73, 73, 73); border-radius: 50%;}
+    100%{border: 2px solid rgb(73, 73, 73); ;}
 }
 .imgs{
     position: relative;
@@ -49,6 +48,27 @@ left: 76px;
     top: 170px;
     font-size: 30px;
 }
-.div{
-    font-size: 20px;
+blockquote{
+    color: white;
+    position: relative;
+    top: 210px;
+}
+.star{
+    position: relative;
+    top:220px ;
+    color: white;
+    padding: 4px 20px;
+color: yellow;
+}
+.star{
+ 
+}
+.span-c{
+    transform: rotate("100deg");
+    transition: 3s;
+    animation: star 3s infinite;
+}
+@keyframes star{
+0%{transform: rotate(300deg); transition: 9s;}
+
 }
