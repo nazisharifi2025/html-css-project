@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+div .a{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    border:1px solid gray;
+   
+
+    margin-top: 170px;
+    position: relative;
+    padding: 10px;
+}
+.c{
+    animation: div 4s infinite;
+height: 4s0px;
+width: 510px;
+margin-left: 400px;
+}
+@keyframes div{
+    0%{
+        transform: rotateY(300deg);
+        box-shadow: 5px 5px 2px white;
+    }
+    100%{
+        box-shadow: 5px 5px 2px white;
+    }
+}
+/* @keyframes div{
+10%{border-bottom: 3px solid white; box-shadow: 6px 6px 2px white}
+20%{box-shadow: 4px 4px 3px white;}
+30%{box-shadow: 4px 4px 3px white;}
+40%{box-shadow: 4px 4px 3px white;}
+50%{box-shadow: 4px 4px 3px white;}
+60%{box-shadow: 4px 4px 3px white;}
+70%{box-shadow: 4px 4px 3px white;}
+80%{box-shadow: 4px 4px 3px white;}
+90%{box-shadow: 4px 4px 3px white;}
+100%{box-shadow: 4px 4px 3px white;}
+
+    }
+0%{
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+25%{
+    background-color: blue;left: 1000px;top: 0px;
+}
+50%{background-color: brown;left: 1000px;top: 400px;}
+75%{background-color: cadetblue;left: 0px;top: 400px;}
+100%{background-color: violet; left: 0px; top: 0px;} */

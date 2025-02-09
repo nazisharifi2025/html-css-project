@@ -45,6 +45,12 @@ margin-top: 50px;
 padding: 10px;
   
 }
+input{
+    display: none;
+}
+#checkd-1:checked ~.all{
+    display: block;
+}
 .span{
     margin:12px 120px;
 
@@ -64,23 +70,37 @@ padding: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 10px;
+
+}
+.all{
+    display: none;
 }
 .logo{
     width: 331px;
     height: 331px;
 }
-/* .all{
+
+.logo:hover{
     display: block;
 }
-.spann:hover ~.all{
-display: none;
-} */
 .nazdana .logo img{
     height: 100%;
     width: 100%;
     border: 2px solid gray;
     border-radius: 5px;
-}.ali{
+}
+.nazd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+}
+.nazd .logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.ali{
     font-size: 30px;
 }
 .bell{
@@ -91,4 +111,10 @@ display: none;
 }
 .ar{
     font-size: 6px;
+}
+.alll{
+    display: none;
+}
+#checkd2:checked ~.alll{
+display: block;
 }
