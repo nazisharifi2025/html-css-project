@@ -1,6 +1,6 @@
 div.contener{
     display: grid;
-  grid-template-columns:repeat(8, 1fr) ;
+  grid-template-columns: repeat(8,1fr);
 }
 div.item{
     font-size: 19px;
@@ -16,11 +16,7 @@ padding: 9px 20px;
 border: 1px solid rgb(62, 163, 62);
 color: white;
 }
- img{
-    height: 70px;
-    width: 70px;
-    margin-left: 13px;
-}
+
 .c{
     background-color: rgb(182, 181, 181);
     border: 1px solid rgb(185, 185, 185);
@@ -29,30 +25,17 @@ color: white;
     color: white;
 }
 .all-box{
-    width: 100%;
-    min-height: 60px;
-    background-color: black;
-    color: white;
-margin: 0;
-padding: 0;
+
 
 }
-ul{
+
+
+
+
+.all{
     display: grid;
-    grid-template-columns: repeat(10,1fr);
-}
-ul li{
-    text-decoration: none;
-    list-style: none;
-    font-size: 21px;
-    line-height: 60px;
-    text-align: center;
-}
-.meno{
-    line-height: 60px;
-    margin-top: 14px;
-}
-ul li:hover{
-    background: rgb(23, 128, 23);
- 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.5fr 1.5fr 1.3fr 1fr;
+    grid-template-areas: "div div div div div" "nav nav nav nav nav" 
+   "sidbar main main main main" "sidebar content1 conten" ;
 }
