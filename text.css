@@ -94,6 +94,17 @@ input{
     grid-template-columns: repeat(4,1fr);
     margin-top: 10px;
 }
+.nazdd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+}
+.nazdd .logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
 .nazd .logo img{
     height: 100%;
     width: 100%;
@@ -117,4 +128,10 @@ input{
 }
 #checkd2:checked ~.alll{
 display: block;
+}
+.allll{
+    display: none;
+}
+#checkd-3:checked ~.allll{
+    display: block;
 }
