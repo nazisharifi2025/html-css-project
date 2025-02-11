@@ -62,9 +62,45 @@
     width: 97%;
     margin: auto;
     border-radius: 12px;
+    position: relative;
     }
     .img-box-1 .b-g{
         height: 100%;
         width: 100%;
         border-radius: 12px;
+        box-shadow: 0 2px 2px var(--h-color) ;
+    }
+    .img-box-1::before{
+        content: "Takhfif";
+        position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: .5s;
+color: white;
+font-size: 18px;
+margin-top: -160px;
+opacity: 0;
+z-index: 989;
+    }
+    .img-box-1:hover::before{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .img-box-1 ::after{
+        content: "";
+        background-color:var(--h-color);
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+border-radius: 12px;
+height: 100%;
+width: 100%;
+opacity: 0;
+z-index: 898;
+
+    }
+    .img-box-1:hover ::after{
+        bottom: 0;
+        opacity: 1;
     }
