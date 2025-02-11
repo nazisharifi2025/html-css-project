@@ -71,7 +71,8 @@
         box-shadow: 0 2px 2px var(--h-color) ;
     }
     .img-box-1::before{
-        content: "Takhfif";
+        content: "50%  discount for you";
+        font-size: 45px;
         position: absolute;
 top: 50%;
 left: 50%;
@@ -87,11 +88,11 @@ z-index: 989;
         margin-top: 0;
         opacity: 1;
     }
-    .img-box-1 ::after{
+    .img-box-1::after{
         content: "";
         background-color:var(--h-color);
         position: absolute;
-        bottom: -100px;
+        bottom: -70px;
         left: 0;
 border-radius: 12px;
 height: 100%;
@@ -100,7 +101,7 @@ opacity: 0;
 z-index: 898;
 
     }
-    .img-box-1:hover ::after{
-        bottom: 0;
-        opacity: 1;
-    }
+   .img-box-1:hover::after{
+    opacity: 0.3;
+    bottom: 0;
+   }
