@@ -1,12 +1,40 @@
-body{
 
-}
-:root{
-    --gradient: linear-gradient(
+/* :root{
+    --gradient:  linear-gradient (
         45deg,
         #845ec2,
-    )
-}
-.contener{
+          #465db1,
+          #ff6f91,
+          #ff9671,
+          #ffc75f,
+          #f9f871,
+         
+    );
+} */
+body{
+    height: 100vh;
+    background-clip: text;
+    background-position: left;
+    background-image: linear-gradient(red, blue pink,black);
+    background-size: 400%;
+    animation: body 3s infinite alternate;
+    }
     
+@keyframes body{
+    0%{background-position: left;}
+    100%{background-position: right;}
 }
+/* .contener{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+
+    height: 200px;
+    width: 300px;
+    background-clip:text;
+  
+}
+h1{
+color: var(gradient);
+} */

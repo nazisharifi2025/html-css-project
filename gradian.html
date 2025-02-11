@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gradian.css">
+    <style>
+:root{
+    --gradiant: linear-gradient(
+        45deg,
+        #845ec2,
+    #465db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+    );
+     }
+body{
+    background-image: linear-gradient( #ff123c,#00fd12,#f0e342);
+    height: 94vh;
+
+    background-clip: text;
+    background-position: left;
+}
+ .all{
+    background-color: black;
+    width: 320px;
+    text-align: center;
+    color: white;
+    margin: auto;
+ }
+ h1{
+    background-image:var(--gradiant);
+    background-clip: text;color: transparent;
+ }
+ .content{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    text-align: center;
+   border-radius: 12px;
+   margin-top: 50px;
+ }
+ @property --angle{
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+ }
+ .content::after{
+    content: "";
+    height:67% ;
+    position: absolute;
+    width: 400px;
+background-image: conic-gradient(from var(--angle),transparent 70%,red);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50%);
+z-index: -1;
+ padding: 6px;
+ animation: box 2s infinite linear;
+ border-radius: 12px;
+ 
+ }
+ @keyframes box{
+    0%{
+        --angle:0deg;
+    }
+    100%{
+        --angle:360deg;
+    }
+ }
+ p{
+    background-image:var(--gradiant);
+    background-clip: text;color: transparent;
+    padding-top: 10px;
+
+ }
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <h1>TECHEAR</h1>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam dolores impedit, deleniti nulla porro vel ea id aliquam iste excepturi, at ut odit soluta reprehenderit eaque autem. Ipsum, accusamus sapiente!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, numquam animi! Repudiandae sint neque fugiat ipsam eius excepturi, ducimus iure earum quibusdam eligendi impedit minima esse? Sit, distinctio maxime obcaecati nam, vitae eius consectetur iste dolor, voluptates blanditiis nostrum! Quos possimus placeat suscipit quam eos quae ullam deserunt quisquam veritatis!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, numquam animi! Repudiandae sint neque fugiat ipsam eius excepturi, ducimus iure earum quibusdam eligendi impedit minima esse? Sit, distinctio maxime obcaecati nam, vitae eius consectetur iste dolor, voluptates blanditiis nostrum! Quos possimus placeat suscipit quam eos quae ullam deserunt quisquam veritatis!</p>
+    </div>
+</body>
+</html>
