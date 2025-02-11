@@ -1,5 +1,70 @@
+:root{
+    --p-color:#465b52;
+    --h-color:#222;
+    --dark-green:#088178;
+    --header-color:#e3f6e3;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+    /* header style */
+    .header{
+    display: flex;
+    background-image: var(--header-color);
+    justify-content: space-between;
+    box-shadow: 0 3px 13px rgba(0, 0,0,0.5);
+     width: 100%;
+     height:70px;
+     position: sticky;
+    }
+    .header .logo{
+        height: 70px;
+        width: 70px;   
+    }
+    .header .ul{
+        display: flex;
+        justify-content: center;
+        line-height: 70px;
+    }
+    .ul li{
+        list-style: none;
+        padding: 0 30px;
+    }
+    .ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .ul li a:hover,
+    .ul li a:active
+    {
+    color: var(--dark-green);
+    }
+    .ul li a.border-bottom:hover,
+    .ul li a.border-bottom 
+    {
+        border-bottom: 2px solid var(--dark-green);
+        transition: 0.3s ease;
+        color: var(--dark-green);
+    }
+    .ul li a:hover,
+    .ul li a:active{
+        border-bottom: 2px solid var(--dark-green);
+        transition: 0.3s ease;
+        color: var(--dark-green);
+    }
+    /* stayl shop.html */
+.img-box-1{
+    height: 300px;
+    width: 97%;
+    margin: auto;
+    border-radius: 12px;
+    }
+    .img-box-1 .b-g{
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+    }
