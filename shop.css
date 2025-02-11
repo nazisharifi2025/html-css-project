@@ -99,9 +99,50 @@ height: 100%;
 width: 100%;
 opacity: 0;
 z-index: 898;
-
     }
    .img-box-1:hover::after{
     opacity: 0.3;
     bottom: 0;
+   }
+   /* page */
+   .continer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+   
+   }
+   .img-box{
+    height: 240px;
+    width: 240px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px 15px 60px 15px;
+    position: relative;
+   }
+   .continer .img-box img{
+    height: 100%;
+    width: 100%;
+  
+   }
+   .img-box:hover{
+    border: 2px solid var(--p-color);
+    box-shadow: 4px 4px 2px var(--h-color);
+   }
+   .contener{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+   }
+   .contener .img-box img{
+    height: 100%;
+    width: 100%;
+   }
+   .hover:hover::before{
+content:"50%  discount";
+position: absolute;
+z-index: 989;
+transform: translate(-50%,50%);
+top: 40%;
+left: 50%;
+text-align: center;
    }
