@@ -43,6 +43,7 @@ margin-top: 50px;
     margin-top: 60px;
     background-color: rgb(221, 230, 248);
 padding: 10px;
+box-shadow: 0px 0px 7px;
   
 }
 input{
@@ -76,8 +77,8 @@ input{
     display: none;
 }
 .logo{
-    width: 331px;
-    height: 331px;
+    width: 290px;
+    height: 290px;
 }
 
 .logo:hover{
@@ -135,3 +136,240 @@ display: block;
 #checkd-3:checked ~.allll{
     display: block;
 }
+@media(max-width:1200px){
+    
+.img-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}.dell{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 18px;
+}.naz{
+    margin-left: 18px;
+    font-size: 17px;
+}.div-2{
+margin-top: 50px;
+}
+.contener{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}.stor{
+    margin-left: 35px;
+    font-size: 25px;
+}.storr{
+    margin-left: 4px;
+    font-size: 23px;
+}
+.text{
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 23px;
+}
+ .nav{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(221, 230, 248);
+padding: 10px;
+box-shadow: 0px 0px 7px;
+  
+}
+input{
+    display: none;
+}
+#checkd-1:checked ~.all{
+    display: block;
+}
+.span{
+    margin:12px 70px;
+
+}
+.spann{
+    margin:12px 70px;
+}
+.span:hover{
+    background-color:rgb(193, 189, 189) ;
+    padding: 18px;
+}
+.spann:hover{
+    background-color:rgb(193, 189, 189) ;
+    padding: 18px;
+}
+.nazdana{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+
+}
+.all{
+    display: none;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.nazdana .logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.nazd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+}
+.nazdd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+}
+.nazdd .logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.nazd .logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.ali{
+    font-size: 25px;
+}
+.bell{
+    float: right;
+  margin-right: 17px;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.ar{
+    font-size: 6px;
+}
+}
+
+
+@media(max-width:900px){
+    
+    .img-box{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }.dell{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 12px;
+        margin-left: 18px;
+    }.naz{
+        margin-left: 18px;
+        font-size: 17px;
+    }.div-2{
+    margin-top: 50px;
+    }
+    .contener{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }.stor{
+        margin-left: 40px;
+        font-size: 20px;
+    }.storr{
+        margin-left: 30px;
+        font-size: 23px;
+    }
+    .text{
+        margin-left: 10px;
+        margin-top: 70px;
+        font-size: 23px;
+    }
+     .nav{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 50px;
+        background-color: rgb(221, 230, 248);
+    padding: 10px;
+    box-shadow: 0px 0px 7px;
+      
+    }
+    input{
+        display: none;
+    }
+    #checkd-1:checked ~.all{
+        display: block;
+    }
+    .span{
+        margin:9px 10px;
+    
+    }
+    .spann{
+        margin:9px 10px;
+    }
+    .span:hover{
+        background-color:rgb(193, 189, 189) ;
+        padding: 18px;
+    }
+    .spann:hover{
+        background-color:rgb(193, 189, 189) ;
+        padding: 18px;
+    }
+    .nazdana{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 10px;
+    
+    }
+    .all{
+        display: none;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+    .nazdana .logo img{
+        height: 100%;
+        width: 100%;
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    .nazd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 10px;
+    }
+    .nazdd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 10px;
+    }
+    .nazdd .logo img{
+        height: 100%;
+        width: 100%;
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    .nazd .logo img{
+        height: 100%;
+        width: 100%;
+        border: 2px solid gray;
+        border-radius: 5px;
+    }
+    .ali{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .bell{
+        float: right;
+      margin-right: 17px;
+      font-size: 25px;
+      margin-top: 15px;
+    }
+    .ar{
+        font-size: 6px;
+    }
+    }
