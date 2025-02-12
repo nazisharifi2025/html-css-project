@@ -27,8 +27,8 @@ a{
 }
 .img-box-1{
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     margin-left: 30px;
     margin-top: 15px;
     border: 1px solid rgb(112, 112, 112);
@@ -169,6 +169,18 @@ color: gray;
         margin-right: 30px;
         font-size: 30px;
         margin-top: 8px;
+    }
+    .n-img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-left: 15px;
+    
+    }
+    .span-4{
+        font-size: 19px;
+        margin-left: 40px;
     }
 }
 @media (max-width:952){
@@ -468,5 +480,22 @@ color: gray;
     .s-s{
         margin-left: 40px;
         font-size: 20px;
+    }
+    .n-img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-left: 8px;
+    
+    }
+    .naz-box{
+        height: 70px;
+        width: 70px;
+    }
+  
+    .span-4{
+        font-size: 15px;
+        margin-left: 30px;
     }
 }
