@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.contener{
+    height: 70vh;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.img-box{
+    height: 350px;
+    width:300px ;
+}
+.contener .img-box img{
+    height: 100%;
+    width: 100%;
+}
