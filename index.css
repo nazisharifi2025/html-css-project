@@ -57,7 +57,7 @@ font-size: 25px;
 div.div-1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 110px;
+    grid-gap: 100px;
 }
 .span-4{
     color: gray;
@@ -108,7 +108,8 @@ div.div-1{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(8,1fr);
- 
+ overflow: scroll;
+ scrollbar-width: none;
  }
  .img-box{
     height: 110px;
@@ -147,8 +148,8 @@ border-bottom: 3px solid white;
     grid-template-columns:repeat(5,1fr);
  }
  .box-imgs{
-    height: 283px;
-    width: 264px;
+    min-height: 283px;
+   max-width:  264px;
     border: 2px solid black;
  }
  .all-imgs .box-imgs .imgs{
@@ -210,7 +211,7 @@ font-size: 20px;
 div.div-1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 90px;
+    grid-gap: 40px;
 }
 .span-4{
     color: gray;
@@ -258,7 +259,7 @@ div.div-1{
 }
  .img-box{
     height: 85px;
-    width: 85px;
+   width: 85px;
     border: 2px solid gray;
     border-radius: 50%;
     padding: 3px;
@@ -267,10 +268,10 @@ div.div-1{
  .contener .img-box span{
     margin-left: 25px;
  }
- /* .contener{
+ .contener{
     overflow: scroll;
-
- } */
+    scrollbar-width: none;
+ }
   /* .contener
   {
     position: sticky;
@@ -299,8 +300,8 @@ border-bottom: 3px solid white;
     grid-template-columns:repeat(4,1fr);
  }
  .box-imgs{
-    height: 245px;
-    width: 228px;
+    min-height: 245px;
+    max-width: 228px;
     border: 2px solid black;
  }
  .all-imgs .box-imgs .imgs{
@@ -418,153 +419,9 @@ border-bottom: 3px solid white;
         padding: 3px;
         margin: 0px 7px;
      }
-    
-     .contener .img-box span{
-        margin-left: 11px;
-        font-size: 10px;
-     }
-     .span-f{
-        margin-top: 10px;
-        font-size: 15px;
-        color: gray;
-    margin: 10px 50px;
-     }
-    .contener{
-        overflow: hidden;
-    }
-     .meno{
-        text-align: center;
-        margin-top: 20px;
-    
-     }
-     .span-f:hover{
-        color: white;
-    border-bottom: 3px solid white;
-     }
-     .all-imgs{
-        width: 100%;
-        display: grid;
-        grid-template-columns:repeat(3,1fr);
-     }
-     .box-imgs{
-        height: 230px;
-        width: 194px;
-        border: 2px solid black;
-     }
-     .all-imgs .box-imgs .imgs{
-        height: 100%;
-        width: 100%;
-     }
-    } /*
-    
-@media (max-width:620px){
-    
-    .aro{
-        font-size: 20%;
-    margin-left: 9px;
-    margin-top: 10px;
-    }
-    .span-1{
-        font-size: 13px;
-    margin-left: 5px;
-    
-    }
-    .span-a{
-        float: right;
-        font-size: 20px;
-        margin: 10px 10px;
-    }
-    .span-b{
-        float: right;
-        font-size: 20px;
-        margin: 10px 13px;
-    }
-    .img-1{
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        border: 2px solid rgb(247, 169, 247);
-        padding: 2px;
-        margin-top: 8px;
-        margin-left: 19px;
-    
-    }
-    .span-2{
-    margin-top: 20px;
-    margin-left: 19px;
-    font-size: 15px;
-    }
-    .strong-1{
-        margin-top: 30px;
-    margin-left: 2px;
-    font-size: 15px;
-    }
-    .strong-2{
-        margin-top: 30px;
-        margin-left: 10px;
-        font-size: 15px;
-    }
-    .strong-3{
-        margin-top: 30px;
-        margin-left: 18px;
-        font-size: 15px;
-    }
-    div.div-1{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 70px;
-    }
-    .span-4{
-        color: gray;
-        margin-left: 10px;
-    }
-    .span-5{
-        color: rgb(165, 162, 162);
-        margin-left: 10px;
-        font-size: 15px;
-    
-    }
-    .span-c{
-        margin-left: 10px;
-        color: rgb(247, 247, 122)
-    }
-    .span-6{
-        color:rgb(165, 162, 162);
-    }
-    .strong-4{
-        margin-left: 10px;
-        font-size: 9px;
-    }
-    .button-1{
-        font-size: 15px;
-        margin-left:  5px;
-        background-color: rgb(53, 53, 53);
-        border: 1px solid rgb(53, 53, 53);
-        padding: 3px 25px;
-        color: white;
-        border-radius: 6px;
-    }
-    .span-d{
-        font-size: 6px;
-    }
-    .span-e{
-        background-color: rgb(53, 53, 53);
-        border: 1px solid rgb(53, 53, 53);
-        padding: 0px 9px;
-        margin-left: 19px;
-        border-radius: 6px;
-        font-size: 12px;
-    }
-    .div-2{
-        text-align: center;
-    }
-     .img-box{
-        height: 60px;
-        width: 60px;
-        border: 2px solid gray;
-        border-radius: 50%;
-        padding: 3px;
-        margin: 0px 7px;
+     .contener{
+        overflow: scroll;
+        scrollbar-width: none;
      }
     
      .contener .img-box span{
@@ -592,156 +449,12 @@ border-bottom: 3px solid white;
         grid-template-columns:repeat(3,1fr);
      }
      .box-imgs{
-        height: 175px;
-        width: 193px;
+       min-height: 230px;
+       max-width: 194px;
         border: 2px solid black;
      }
      .all-imgs .box-imgs .imgs{
         height: 100%;
         width: 100%;
      }
-    }
-    @media (max-width:300px){
-    
-        .aro{
-            font-size: 20%;
-        margin-left: 9px;
-        margin-top: 10px;
-        }
-        .span-1{
-            font-size: 13px;
-        margin-left: 5px;
-        
-        }
-        .span-a{
-            float: right;
-            font-size: 20px;
-            margin: 10px 10px;
-        }
-        .span-b{
-            float: right;
-            font-size: 20px;
-            margin: 10px 13px;
-        }
-        .img-1{
-            height: 70px;
-            width: 70px;
-            border-radius: 50%;
-            border: 2px solid rgb(247, 169, 247);
-            padding: 2px;
-            margin-top: 8px;
-            margin-left: 19px;
-        
-        }
-        .span-2{
-        margin-top: 20px;
-        margin-left: 19px;
-        font-size: 15px;
-        }
-        .strong-1{
-            margin-top: 30px;
-        margin-left: 2px;
-        font-size: 15px;
-        }
-        .strong-2{
-            margin-top: 30px;
-            margin-left: 10px;
-            font-size: 15px;
-        }
-        .strong-3{
-            margin-top: 30px;
-            margin-left: 18px;
-            font-size: 15px;
-        }
-        div.div-1{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-gap: 70px;
-        }
-        .span-4{
-            color: gray;
-            margin-left: 10px;
-        }
-        .span-5{
-            color: rgb(165, 162, 162);
-            margin-left: 10px;
-            font-size: 15px;
-        
-        }
-        .span-c{
-            margin-left: 10px;
-            color: rgb(247, 247, 122)
-        }
-        .span-6{
-            color:rgb(165, 162, 162);
-        }
-        .strong-4{
-            margin-left: 10px;
-            font-size: 9px;
-        }
-        .button-1{
-            font-size: 15px;
-            margin-left:  5px;
-            background-color: rgb(53, 53, 53);
-            border: 1px solid rgb(53, 53, 53);
-            padding: 3px 25px;
-            color: white;
-            border-radius: 6px;
-        }
-        .span-d{
-            font-size: 6px;
-        }
-        .span-e{
-            background-color: rgb(53, 53, 53);
-            border: 1px solid rgb(53, 53, 53);
-            padding: 0px 9px;
-            margin-left: 19px;
-            border-radius: 6px;
-            font-size: 12px;
-        }
-        .div-2{
-            text-align: center;
-        }
-         .img-box{
-            height: 60px;
-            width: 60px;
-            border: 2px solid gray;
-            border-radius: 50%;
-            padding: 3px;
-            margin: 0px 7px;
-         }
-        
-         .contener .img-box span{
-            margin-left: 11px;
-            font-size: 10px;
-         }
-         .span-f{
-            margin-top: 10px;
-            font-size: 15px;
-            color: gray;
-        margin: 10px 50px;
-         }
-         .meno{
-            text-align: center;
-            margin-top: 20px;
-        
-         }
-         .span-f:hover{
-            color: white;
-        border-bottom: 3px solid white;
-         }
-         .all-imgs{
-            width: 100%;
-            display: grid;
-            grid-template-columns:repeat(3,1fr);
-         }
-         .box-imgs{
-            height: 90px;
-            width: 80px;
-            border: 2px solid black;
-         }
-         .all-imgs .box-imgs .imgs{
-            height: 100%;
-            width: 100%;
-         }
-        }
+    } 
