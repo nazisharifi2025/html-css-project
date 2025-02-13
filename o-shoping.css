@@ -66,28 +66,92 @@ width: 70px;
  .bar .contener-img{
     width: 100%;
     height: 40vh;
-    margin: 0;
-    padding: 0;
  }
- @keyframes imgnaz{
+    /* background-image: url("navar/Screenshot 2025-02-13 152022.png");
+   
+    /* animation: bg-chenger;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes bg-chenger{
     0%{
-        background-image: url("navar/Screenshot 2025-02-13 152022.png");
-    }
-    40%{background-image: url("navar/Screenshot 2025-02-13 152040.png");}
-    80%{
-        background-image: url("navar/Screenshot 2025-02-13 152055.png");
+background-image: url("navar/Screenshot 2025-02-13 152022.png");
+background-size: cover;
     }
     100%{
-        background-image: url("navar/Screenshot 2025-02-13 152113.png");
-    }
- }
+background-image: url("img/hero2.jpg");
+background-size: cover;
+    } */
+
  .bar .contener-img img{
     height: 100%;
     width: 100%;
-    background-image: url("navar/Screenshot 2025-02-13 152022.png");
-    background-size: cover;
-    transition: 3s;
- position: relative;
-    background-position:top 20% right 0;
-    animation: imgnaz 3s infinite;
+   
  }
+ /* img style endend */
+.contener-1{
+    width: 100%;
+    height: 50vh;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid var(--border-color);
+    margin-top: 10px;
+}
+.contener-1 h1{
+    display: flex;
+    justify-content: center;
+}
+ .img-box{
+    height: 230px;
+    width: 120px;;
+   margin: 0px 50px;
+    text-align: center;
+    padding: 0 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: 2px 2px 1px gray;
+}
+ .img-box img{
+    height: 80%;
+    width: 90%;
+
+}
+.contener-1 .img-box h3{
+    padding-top: 0;
+}
+/*  */
+.clider{
+    display: flex;
+flex-wrap: wrap;
+}
+.contener-2{
+    width: 100%;
+    height: 50vh;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid var(--border-color);
+    margin-top: 10px;   
+}
+.contener-2 h1{
+    margin-left: 40px;
+}
+.contener-3{
+    width: 40%;
+    height: 92vh;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid var(--border-color);
+    margin-top: 10px;
+}
+.contener-3 .img-box{
+    margin-top: 10px;
+}
+.contener-4{
+    display: flex;
+}
+.contener-3 h1{
+    margin-left: 20px;
+}
+.img{
+    width: 800px;
+    height: 560px;
+    margin-top: 10px;
+}
