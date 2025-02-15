@@ -1,0 +1,129 @@
+:root{
+    --p-color:#465b52;
+    --h-color:#222;
+    --dark-green:#088178;
+    --header-color:#e3f6e3;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* stayl shop.html */
+.img-box-1{
+    height: 300px;
+    width: 97%;
+    margin: auto;
+    border-radius: 12px;
+    position: relative;
+    }
+    .img-box-1 .b-g{
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 2px 2px var(--h-color) ;
+    }
+    .img-box-1::before{
+        content: "50%  discount for you";
+        font-size: 45px;
+        position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: .5s;
+color: white;
+font-size: 18px;
+margin-top: -160px;
+opacity: 0;
+z-index: 989;
+    }
+    .img-box-1:hover::before{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .img-box-1::after{
+        content: "";
+        background-color:var(--h-color);
+        position: absolute;
+        bottom: -70px;
+        left: 0;
+border-radius: 12px;
+height: 100%;
+width: 100%;
+opacity: 0;
+z-index: 898;
+    }
+   .img-box-1:hover::after{
+    opacity: 0.3;
+    bottom: 0;
+   }
+   /* page */
+   .continer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+   
+   }
+   .img-box{
+    height: 240px;
+    width: 240px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px 15px 60px 15px;
+    position: relative;
+   }
+   .continer .img-box img{
+    height: 100%;
+    width: 100%;
+  
+   }
+   .img-box:hover{
+    border: 1px solid var(--p-color);
+    box-shadow: 1px 1px 0.07px var(--h-color);
+   }
+   .contener{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+   }
+   .contener .img-box img{
+    height: 100%;
+    width: 100%;
+   }
+   .hover:hover::before{
+content:"discount";
+position: absolute;
+z-index: 989;
+transform: translate(-50%,50%);
+top: 40%;
+left: 50%;
+text-align: center;
+   }
+   .reletiv{
+    position: relative;
+   }
+   .posation{
+    position: absolute;
+    display: flex;
+    z-index: 989;
+    height: 40px;
+    width: 88%;
+    align-items: center;
+    text-align: center;
+    top: 140px;
+   }
+   .posation .imgs{
+    height: 45px;
+    width: 45px;
+    display: none;
+   }
+   .reletiv:hover ~.posation .imgs{
+    display: block;
+   }
+   .contener.img-box:hover{
+    background-image: url("img-box/Screenshot 2025-02-11 143349.png");
+    background-size: cover;
+    background-position: fixd;
+    z-index: 989;
+
+   }
