@@ -27,6 +27,11 @@ margin-left: 9px;
 }
 /* navar style ended */
 /* profiel style start */
+div.div-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 100px;
+}
 .img-1{
     height: 110px;
     width: 110px;
@@ -42,8 +47,6 @@ margin-top: 50px;
 margin-left: 70px;
 font-size: 25px;
 }
-/* profiel style ended */
-/* contect style start */
 .strong-1{
     margin-top: 50px;
 margin-left: 5px;
@@ -59,10 +62,10 @@ font-size: 25px;
     margin-left: 20px;
     font-size: 25px;
 }
-div.div-1{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 100px;
+/* profiel style ended */
+/* contect style start */
+.div-2{
+    text-align: center;
 }
 .span-4{
     color: gray;
@@ -80,6 +83,9 @@ div.div-1{
 }
 .span-6{
     color:rgb(165, 162, 162);
+}
+.span-6 strong{
+color: white;
 }
 .strong-4{
     margin-left: 20px;
@@ -106,10 +112,7 @@ div.div-1{
     margin-left: 10px;
     border-radius: 6px;
 }
-.div-2{
-    text-align: center;
-}
- /* contect style ended */
+/* contect style ended */
 /* story style start */
  .contener{
     width: 100%;
@@ -148,30 +151,43 @@ margin: 20px 120px;
 
  }
  .span-f:hover,
- .span-f:active
- {
+ .span-f:active{
     color: white;
 border-bottom: 3px solid white;
  }
 /* menu style ended */
  /* post style start */
- .all-imgs{
-    width: 100%;
-    display: grid;
-    grid-template-columns:repeat(5,1fr);
- }
- .box-imgs{
-    min-height: 283px;
-   max-width:  264px;
+ .contener-video{
+    display: flex;
+    gap: 2px;
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contener-video .video-box{
     border: 2px solid black;
- }
- .all-imgs .box-imgs .imgs{
-    height: 100%;
+    min-height:180px;  
+    min-width:180px;
+}
+.contener-video .video-box video{
+    height: 180px;
     width: 100%;
- }
+}
+.Contact{
+    font-size: 23px;
+    margin-left: 20px;
+    text-align: center;
+    display: none;
+}
+.Contact strong{
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
 /* post style endedd */
 @media (max-width:952px){
-    /* navar style stsrt */
+    
 .aro{
     font-size: 30%;
 margin-left: 18px;
@@ -192,13 +208,6 @@ margin-left: 7px;
     font-size: 30px;
     margin: 15px 19px;
 }
-/* navar style ended */
-/* profiel style start */
-div.div-1{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 40px;
-}
 .img-1{
     height: 90px;
     width: 90px;
@@ -214,8 +223,6 @@ margin-top: 36px;
 margin-left: 50px;
 font-size: 19px;
 }
-/* profiel style ended */
-/* contect style start */
 .strong-1{
     margin-top: 40px;
 margin-left: 4px;
@@ -231,6 +238,11 @@ font-size: 20px;
     margin-left: 14px;
     font-size: 20px;
 }
+div.div-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
 .span-4{
     color: gray;
     margin-left: 15px;
@@ -239,6 +251,7 @@ font-size: 20px;
     color: rgb(165, 162, 162);
     margin-left: 15px;
     font-size: 17px;
+
 }
 .span-c{
     margin-left: 15px;
@@ -260,10 +273,6 @@ font-size: 20px;
     color: white;
     border-radius: 6px;
 }
-@keyframes myimg {
-    0%{background: url("");}
-    100%{background: url("img-box/a_16.jpg");background-attachment: fixed;}
-}
 .span-e{
     background-color: rgb(53, 53, 53);
     border: 1px solid rgb(53, 53, 53);
@@ -271,8 +280,6 @@ font-size: 20px;
     margin-left: 13px;
     border-radius: 6px;
 }
- /* contect style ended */
-/* story style start */
 .div-2{
     text-align: center;
 }
@@ -291,11 +298,13 @@ font-size: 20px;
     overflow: scroll;
     scrollbar-width: none;
  }
+  /* .contener
+  {
+    position: sticky;
+  } */
    .contener{
     visibility:visible;
    }
-    /* story style endedd */
- /* menu style */
  .span-f{
     margin-top: 15px;
     font-size: 30px;
@@ -307,27 +316,34 @@ margin: 15px 70px;
     margin-top: 30px;
 
  }
- /* menu style ended */
- /* post style start */
- .all-imgs{
-    width: 100%;
+ .span-f:hover,
+ .span-f:active
+ {
+    color: white;
+border-bottom: 3px solid white;
+ }
+ .contener-video{
     display: grid;
-    grid-template-columns:repeat(4,1fr);
- }
- .box-imgs{
-    min-height: 245px;
-    max-width: 228px;
-    border: 2px solid black;
- }
- .all-imgs .box-imgs .imgs{
-    height: 100%;
-    width: 100%;
- }
- /* post style endedd */
-}
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
 
- @media (max-width:620px){
-    /* navar style stsrt */
+    align-items: center;
+}
+.contener-video .video-box{
+    border: 2px solid black;
+    min-height:150px;  
+    min-width:70px;
+}
+.contener-video .video-box video{
+    height: 150px;
+    width: 100%;
+}
+}
+/*  */
+@media (max-width:620px){
+    
     .aro{
         font-size: 20%;
     margin-left: 9px;
@@ -348,8 +364,6 @@ margin: 15px 70px;
         font-size: 20px;
         margin: 10px 13px;
     }
-    /* navar style ended */
-/* profiel style start */
     .img-1{
         height: 70px;
         width: 70px;
@@ -365,8 +379,6 @@ margin: 15px 70px;
     margin-left: 4px;
     font-size: 15px;
     }
- /* profiel style ended */
-/* contect style start */
     .strong-1{
         margin-top: 30px;
     margin-left: 2px;
@@ -428,8 +440,6 @@ margin: 15px 70px;
         border-radius: 6px;
         font-size: 12px;
     }
-     /* contect style ended */
-/* story style start */
     .div-2{
         text-align: center;
     }
@@ -450,8 +460,6 @@ margin: 15px 70px;
         margin-left: 11px;
         font-size: 10px;
      }
-      /* story style endedd */
- /* menu style */
      .span-f{
         margin-top: 10px;
         font-size: 15px;
@@ -463,27 +471,27 @@ margin: 15px 70px;
         margin-top: 20px;
     
      }
-     .span-f:hover,
-     .span-f:active
-     {
+     .span-f:hover{
         color: white;
     border-bottom: 3px solid white;
      }
-      /* menu style ended */
- /* post style start */
-     .all-imgs{
-        width: 100%;
+     .contener-video{
         display: grid;
-        grid-template-columns:repeat(3,1fr);
-     }
-     .box-imgs{
-       min-height: 230px;
-       max-width: 194px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2px;
+        margin-top: 15px;
+        text-align: center;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .contener-video .video-box{
         border: 2px solid black;
-     }
-     .all-imgs .box-imgs .imgs{
-        height: 100%;
+        min-height:140px;  
+        min-width:140px;
+    }
+    .contener-video .video-box video{
+        height: 170px;
         width: 100%;
-     }
-      /* post style endedd */
-    } 
+    }
+    }
