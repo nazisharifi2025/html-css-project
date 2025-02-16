@@ -192,7 +192,7 @@ flex-wrap: wrap;
 .all{
     background-image: url("img/banner/b14.png");
     background-color: black;
-    height: 75vh;
+    height: 85vh;
     color: white;
     padding-top: 30px;
     padding-left: 20px;
@@ -203,6 +203,12 @@ flex-wrap: wrap;
 .contint p{
     color: gray;
     padding-bottom: 20px;
+}
+.center{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 40px;
 }
 .margin-left{
     padding-left: 18px;
@@ -246,4 +252,12 @@ margin-left: 30px;
 }
 .all-2 .img-f img{
 margin: 3px 20px;
+}
+.signin{
+float: right;
+margin-right: 15px;
+}
+.signin img{
+    height: 20px;
+    
 }
