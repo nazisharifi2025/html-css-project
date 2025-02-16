@@ -156,18 +156,20 @@ padding-top: 7px;
    }
    .img-box{
     height: 430px;
-    width: 350px;
+    width: 340px;
     margin-left: 20px;
     text-align: center;
     padding: 20px 15px 60px 15px;
     position: relative;
     border-bottom: 0.4px solid black;
+    border-top: 0.4px solid black;
     box-shadow: 10px 10px 25px rgba(0,0,0,0.06);
+    border-radius: 12px;
    }
    .continer .img-box img{
     height: 90%;
     width: 100%;
-  
+  border-radius: 12px;
    }
    .img-box:hover{
     border: 1px solid var(--p-color);
