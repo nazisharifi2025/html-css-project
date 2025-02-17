@@ -79,6 +79,7 @@ input{
 .logo{
     width: 290px;
     height: 290px;
+    margin-bottom: 12px;
 }
 
 .logo:hover{
