@@ -1,0 +1,21 @@
+ .section{
+    background-image: url("Screenshot_۲۰۲۵۰۱۲۹_۱۷۲۵۳۸_Instagram.jpg");
+    height: 160vh;
+  
+    width: 99%;
+     background-size: cover;
+     animation: mymove 6s infinite;
+     position: relative;
+     top: -180px;
+     margin-left: 0;
+  
+  }@keyframes mymove{
+    0%{
+      background-image: url("Screenshot_۲۰۲۵۰۲۰۳_۱۲۳۹۲۶_Instagram.jpg");
+    }50%{
+      background-image: url("Screenshot_۲۰۲۵۰۲۰۳_۱۲۴۱۲۵_Google.jpg");
+    }
+    100%{
+      background-image: url("Screenshot_۲۰۲۵۰۲۰۳_۱۲۴۰۳۸_Google.jpg");
+    }
+  }
