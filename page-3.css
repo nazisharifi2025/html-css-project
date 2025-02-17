@@ -1,0 +1,346 @@
+:root{
+    --p-color:#465b52;
+    --h-color:#222;
+    --dark-green:#088178;
+    --header-color:#e3f6e3;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navar */
+.navar{
+    width: 100%;
+display: flex;
+justify-content: center;
+gap: 200px;
+position: sticky;
+height: 105px;
+background-color: rgb(255, 254, 254);
+box-shadow: 2px 2px 4px gray;
+top: 0;
+right: 0;
+z-index: 999;
+}
+.navar .img-nav{
+    height: 70px;
+width: 70px;
+    text-align: center;
+    align-items: center;
+
+}
+.navar .img-nav img{
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+ .navar .img-nav a{
+    text-decoration: none;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+ }
+ .navar .img-nav a:hover{
+    color: var(--dark-green);
+    border-bottom:2px solid var(--dark-green);
+    text-align: center;
+    transition: 2s;
+    width: 100%;
+ }
+ .navar .img-nav a:hover,
+ .navar .img-nav span.margin-left a.active
+ {
+     border-bottom: 2px solid var(--dark-green);
+     transition: 0.3s ease;
+     color: var(--dark-green);
+ }
+ .navar .img-nav span{
+    text-align: center;
+ }
+ .margin{
+    margin-right: 20px;
+ }
+ .navar .margin-left{
+    margin-left: 23px;
+ }
+ .navar .img-nav .margin-r{
+    margin-right: 90px;
+ }
+    /* header style */
+    .header{
+    display: flex;
+    background-image: var(--header-color);
+    justify-content: space-between;
+    box-shadow: 0 3px 13px rgba(0, 0,0,0.5);
+     width: 100%;
+     height:70px;
+     position: sticky;
+    }
+    .header .logo{
+        height: 70px;
+        width: 70px;   
+    }
+    .header .ul{
+        display: flex;
+        justify-content: center;
+        line-height: 70px;
+    }
+    .ul li{
+        list-style: none;
+        padding: 0 30px;
+    }
+    .ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .ul li a:hover,
+    .ul li a:active
+    {
+    color: var(--dark-green);
+    }
+    .ul li a.border-bottom:hover,
+    .ul li a.border-bottom 
+    {
+        border-bottom: 2px solid var(--dark-green);
+        transition: 0.3s ease;
+        color: var(--dark-green);
+    }
+    .ul li a:hover,
+    .ul li a:active{
+        border-bottom: 2px solid var(--dark-green);
+        transition: 0.3s ease;
+        color: var(--dark-green);
+    }
+    /* stayl shop.html */
+.img-box-1{
+    height: 300px;
+    width: 97%;
+    margin: auto;
+    border-radius: 12px;
+    position: relative;
+    }
+    .img-box-1 .b-g{
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 2px 2px var(--h-color) ;
+    }
+    .img-box-1::before{
+        content: "50%  discount for you";
+        font-size: 45px;
+        position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: .5s;
+color: white;
+font-size: 18px;
+margin-top: -160px;
+opacity: 0;
+z-index: 989;
+    }
+    .img-box-1:hover::before{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .img-box-1::after{
+        content: "";
+        background-color:var(--h-color);
+        position: absolute;
+        bottom: -70px;
+        left: 0;
+border-radius: 12px;
+height: 100%;
+width: 100%;
+opacity: 0;
+z-index: 898;
+    }
+   .img-box-1:hover::after{
+    opacity: 0.3;
+    bottom: 0;
+   }
+   /* page */
+   .continer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+   gap: 40px;
+   }
+   .img-box{
+    height: 340px;
+    width: 280px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px 15px 60px 15px;
+    position: relative;
+    border: 1px solid var(--p-color);
+    box-shadow: 1px 1px 0.07px var(--h-color);
+    border-radius: 12px;
+   }
+   .continer .img-box img{
+    height: 90%;
+    width: 100%;
+  border-radius: 12px;
+   }
+   .img{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left: 3%;
+    top: 69%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hov:hover ~.img{
+opacity: 1;
+   }
+   .img-2{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left: 30%;
+    top: 69%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hove:hover ~.img-2{
+    opacity: 1;
+   }
+   .img-3{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left: 55%;
+    top: 69%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hover-3:hover ~.img-3{
+    opacity: 1;
+   }
+   .img-4{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left: 80%;
+    top: 69%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hover-4:hover ~.img-4{
+    opacity: 1;
+   }
+   .img-5{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left:3%;
+    top: 129%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hover-5:hover ~.img-5{
+    opacity: 1;
+   }
+   .img-6{
+    height: 235px;
+    width: 240px;
+    position: absolute;
+    left: 30%;
+    top: 128%;
+    bottom: 50px;
+    border-radius: 12px;
+    opacity: 0;
+   }
+   .hover-6:hover ~.img-6{
+    opacity: 1;
+   }
+   .contener{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+   }
+   .contener .img-box img{
+    height: 100%;
+    width: 100%;
+   }
+   .hover:hover::before{
+content:"discount";
+position: absolute;
+z-index: 989;
+transform: translate(-50%,50%);
+top: 40%;
+left: 50%;
+text-align: center;
+   }
+   .reletiv{
+    position: relative;
+   }
+   .posation{
+    position: absolute;
+    display: flex;
+    z-index: 989;
+    height: 40px;
+    width: 88%;
+    align-items: center;
+    text-align: center;
+    top: 140px;
+   }
+   .posation .imgs{
+    height: 45px;
+    width: 45px;
+    display: none;
+   }
+   .reletiv:hover ~.posation .imgs{
+    display: block;
+   }
+   .contener.img-box:hover{
+    background-image: url("img-box/Screenshot 2025-02-11 143349.png");
+    background-size: cover;
+    background-position: fixd;
+    z-index: 989;
+
+   }
+   .ditels{
+    text-align: start;
+   }
+   .ditels span{
+    color: gray;
+    font-size: 14px;
+}
+.ditels h4{
+font-size: 20px;
+padding-top: 7px;
+}
+ .img-box h5{
+    font-size: 20px;
+    padding-top: 7px;
+    color: var(--dark-green);
+}
+ .img-box .shipping{
+    width: 40;
+    height: 40px;
+    line-height: 40px;
+    background-color: gray;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+  padding: 0 10px;
+    text-align: center;
+}
+.navar .img-nav a:hover,
+.navar .img-nav span.margin-r a.active
+{
+    border-bottom: 2px solid var(--dark-green);
+    transition: 0.3s ease;
+    color: var(--dark-green);
+}

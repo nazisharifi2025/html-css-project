@@ -1,4 +1,4 @@
-:root{
+ :root{
     --p-color:#465b52;
     --h-color:#222;
     --dark-green:#088178;
@@ -213,4 +213,4 @@ text-align: center;
    }
    .reletiv:hover ~.posation .imgs{
     display: block;
-   }
+   } 

@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 /* header style */
-.header{
+#header{
     position: sticky;
 display: flex;
 top: 0;
@@ -30,42 +30,46 @@ box-shadow: 0 3px 13px rgba(0, 0,0,0.5);
 background-color: white;
 z-index: 999;
 }
-.header .logo{
+#header .logo{
     height: 70px;
   
 }
-.header .ul{
+#header #ul{
     display: flex;
     justify-content: center;
     line-height: 70px;
 }
-.ul li{
+#ul li{
     list-style: none;
     padding: 0 30px;
 }
-.ul li a{
+#ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
     font-weight: 400;
 }
-.ul li a:hover,
-.ul li a:active
+#ul li a:hover,
+#ul li a:active
 {
 color: var(--dark-green);
 }
-.ul li a.border-bottom:hover,
-.ul li a.border-bottom 
+#ul li a.border-bottom:hover,
+#ul li a.border-bottom 
 {
     border-bottom: 2px solid var(--dark-green);
     transition: 0.3s ease;
     color: var(--dark-green);
 }
-.ul li a:hover,
-.ul li a:active{
+#ul li a:hover,
+#ul li a:active{
     border-bottom: 2px solid var(--dark-green);
     transition: 0.3s ease;
     color: var(--dark-green);
+}
+#icon{
+    display: none;
+    line-height: 70px;
 }
 /* slider style */
 
@@ -331,4 +335,59 @@ margin-left: 30px;
 }
 .all-2 .img-f img{
 margin: 3px 20px;
+}
+@media (max-width:950px){
+#ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 300px;
+        height: 100vh;
+        padding-left: 12px;
+        background-color: var(--header-color);
+        padding-top: 30px;
+        position:fixed;
+        right: -300px;
+        top: 0;
+    }
+    #icon{
+        display: block;
+      
+    }
+    #icon #bar{
+        padding: 0 12px;
+font-size: 20px;
+color:#222;
+line-height: 70px;
+    }
+    #header .a{
+        right: 0;
+    }
+}
+@media (max-width:774px){
+    #icon #bar {
+        padding: 0 6px;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3{
+        font-size: 35px;
+
+    }
+    .contener-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-box {
+        height: 230px;
+        width: 170px;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        margin: 30px;
+        border-radius: 5px;
+    }
 }
