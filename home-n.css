@@ -169,10 +169,13 @@ margin-left: 20px;
  .product{
     border: 1px solid black;
     width: 100%;
-    height: 60vh;
+    height: 67vh;
     margin-top: 12px;
     border-radius: 4px;
     padding-left: 6px;
+ }
+ .prou{
+   line-height: 1.4;
  }
  .de{
     width: 45%;
@@ -180,7 +183,7 @@ margin-left: 20px;
  }
  .kharid{
     font-size: 22px;
-    margin: 34px 23px;
+    margin: 64px 23px;
  }
  .s-1{
    border: 1px solid purple;
