@@ -263,3 +263,50 @@ margin-right: 15px;
     height: 20px;
     
 }
+/*  */
+/*  */
+.news-arriver{
+    text-align: center;
+    margin-top: 30px;
+background-image: url("img/banner/b16.jpg");
+background-color: black;
+height: 30vh;
+padding: 50px 0;
+width: 100%;
+background-size: cover;
+position: relative;
+}
+.news-arriver .text h2,p{
+    color: white;
+    text-align: start;
+}
+.news-arriver .form{
+position: absolute;
+top: 90px;
+left: 60%;
+padding-left: 30px;
+display: flex;
+float: right;
+margin-right: 12px;
+}
+.news-arriver .form input{
+    height: 3.2em;
+    border: 0;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.news-arriver .form  button{
+    background-color: white;
+    height: 3.2em;
+    border: 0;
+    border-radius: 7px;
+padding-right: 9px;
+    color: gray;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.news-arriver .form  button:hover{
+    background-color: var(--dark-green);
+}

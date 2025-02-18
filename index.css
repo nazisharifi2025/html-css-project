@@ -326,7 +326,7 @@ margin: 15px 70px;
  /* post style endedd */
 }
 
- @media (max-width:620px){
+ @media (max-width:477px){
     /* navar style stsrt */
     .aro{
         font-size: 20%;
@@ -487,3 +487,20 @@ margin: 15px 70px;
      }
       /* post style endedd */
     } 
+    input{
+        width:80%;
+        margin-left: 100px;
+        height: 30px;
+        border-radius: 50px;
+        color: gray;border: 0;
+        font-size: 30px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    input ::placeholder{
+        text-align: center;
+    }
+    .spanz{
+        margin-left: 30px;
+    }
+  
