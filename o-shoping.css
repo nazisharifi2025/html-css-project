@@ -144,15 +144,15 @@ width: 70px;
  }
  .bar .contener-img{
   float: right;
-  margin-right: 180px;
+  margin-right: 230px;
+  margin-top: 60px;
  }
- .bar .contener-img img{
-    height: 100%;
-    width: 100%;
-   
+ .bar .contener-img h1{
+font-size: 39px;
+font-weight: 700;
  }
- .bar .contener-img img::before{
-    content: "Welcome";
+ .bar .contener-img h3{
+    font-size: 30px;
  }
  /* img style endend */
  /* contener-1 start */
