@@ -108,8 +108,8 @@ opacity: 1;
  }
  .po{
     position: absolute;
-    height: 447px;
-    width: 580px;
+    height: 443px;
+    width: 450px;
     left: 134px;
     opacity: 0;
  }
@@ -118,7 +118,7 @@ opacity: 1;
 }
  .for-img{
     height: 70vh;
-    width: 50%;
+    width: 40%;
     border: 1px solid #222;
 text-align: center;
 border-radius: 4px;
@@ -126,7 +126,7 @@ margin-left: 20px;
  }
  .for-img .reletiv{
     height: 100%;
-    width: 90%;
+    width: 83%;
     position: relative;
  }
  .for-text{
