@@ -38,3 +38,6 @@ body{
 h1{
 color: var(gradient);
 } */
+div{
+    display: inline;
+}
