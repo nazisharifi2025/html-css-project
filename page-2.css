@@ -9,6 +9,71 @@
     margin: 0;
     box-sizing: border-box;
 }
+.p-staki{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navar-1{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: whitesmoke;
+}
+.navar-1 img{
+height: 50px;
+padding: 0 15px;
+}
+.navar-1 input{
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    width: 60%;
+    margin-top: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.navar-1 button{
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 5px;
+    background-color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-right: 19px;
+    font-size: 19px;
+}
+.navar-1 ul{
+display: flex;
+}
+.navar-1 ul li{
+    list-style: none;
+    line-height: 35px;
+}
+.navar-1 ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 19px;
+    color: #222;
+  
+}
+.navar-1 ul a li:hover,
+.navar-1 ul a li.start
+{
+color: var(--dark-green);
+border-bottom: 2px solid var(--dark-green);
+text-align: center;
+transition: 2s;
+padding-bottom: 6px;
+}
+.navar-1 ul span{
+    font-size: 22px;
+    line-height: 35px;
+    margin-left: 10px;
+}
 /* navar */
 .navar{
     width: 100%;
@@ -214,3 +279,81 @@ text-align: center;
    .reletiv:hover ~.posation .imgs{
     display: block;
    } 
+   .all{
+    background-image: url("img/banner/b14.png");
+    background-color: black;
+    height: 85vh;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.contint{
+    display: flex;
+}
+.contint p{
+    color: gray;
+    padding-bottom: 20px;
+}
+.center{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.margin-left{
+    padding-left: 18px;
+}
+.contint li{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 6px;
+    list-style: none;
+}
+.contint :nth-child(4).sharh{
+    border-right: 2px solid var(--border-color);
+    padding-right: 22px;
+}
+.sharh{
+    height: 60vh;
+}
+.sharhh{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sharhh span.blue{
+    color: blue;
+}
+.sharhh span.white{
+    color: white;
+}
+.sharhh img{
+    margin: 3px 10px;
+}.all-2{
+    display: flex;
+    margin: 30px;
+}
+.all-2 .first span{
+    margin: 3px 30px;
+    font-weight: 800;
+    font-size: 23px;
+}
+.all-2 .img-f{
+margin-left: 30px;
+}
+.all-2 .img-f img{
+margin: 3px 20px;
+}
+.signin{
+float: right;
+margin-right: 15px;
+}
+.signin img{
+    height: 20px;
+    
+}
+.sh{
+    position: absolute;
+    top: -0px;
+    left: 45px;
+    color:white;
+ }
