@@ -157,7 +157,7 @@ width: 70px;
  .sh{
     position: absolute;
     top: -20px;
-    left: 45px;
+    left: 70px;
     color:white;
  }
  /* nav style andednd */
@@ -415,12 +415,21 @@ padding-right: 9px;
 .news-arriver .form  button:hover{
     background-color: var(--dark-green);
 }
+.sharifi{
+    color: black;
+    top: 79%;
+    left: 46%;
+    color: white;
+    z-index: 999;
+    position: absolute;
+
+}
 /* o-shoping endded */
 .bar .contener-text{
     display: flex;
     justify-content: center;
-    background-image: url("img/banner/Screenshot 2025-02-19 153258.png");
-    background-position: 50%;
+    background-image: url("img/banner/Screenshot 2025-02-22 215536.png");
+    background-position: 30%;
     background-size: cover;
     height: 40vh;
 }
