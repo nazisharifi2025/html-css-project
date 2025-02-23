@@ -503,4 +503,6 @@ margin: 15px 70px;
     .spanz{
         margin-left: 30px;
     }
-  
+  div{
+    display: inline;
+  }
