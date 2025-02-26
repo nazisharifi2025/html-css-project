@@ -1,0 +1,45 @@
+
+ .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    background-color: gainsboro;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+div.HAZ{
+    height: 300px;
+    width: 230px;
+    padding: 12px;
+    margin:9px ;
+}
+div h2{
+    font-size: 20px;
+}
+
+
+img{
+    height: 250px;
+    width: 220px;
+    border-radius: 9px;
+}
+@media (max-width: 858px) {
+    .container{
+        height: 200px;
+        width: 170px;
+        padding: 9px;
+        margin:7px ;
+        
+    
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 9px;
+    }
+     
+    div h2{
+        font-size: 14px;
+    }
+}
