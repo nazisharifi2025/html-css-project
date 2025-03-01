@@ -1,0 +1,20 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "\"# programming\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazisharifi2025/html-css-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazisharifi2025/html-css-project/issues"
+  },
+  "homepage": "https://github.com/nazisharifi2025/html-css-project#readme"
+}
