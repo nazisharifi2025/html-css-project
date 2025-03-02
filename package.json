@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nazisharifi2025/html-css-project/issues"
   },
-  "homepage": "https://github.com/nazisharifi2025/html-css-project#readme"
+  "homepage": "https://github.com/nazisharifi2025/html-css-project#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "tailwindcss": "^4.0.9"
+  }
 }
