@@ -7,12 +7,22 @@ const tiems=document.getElementById("tiems");
 const number=document.getElementById("number");
 const result=document.getElementById("result");
 
-let DefaultResult= 0;
+let DefaultResult = 0;
 function addtion(){
-    DefaultResult = DefaultResult+parseInt(number.value);
+    DefaultResult = DefaultResult+ parseInt(number.value);
     showResult(DefaultResult);
 }
 function showResult(DefaultResult) {
     result.textContent =DefaultResult;
 }
-add.addEventListener('click',addtion)
+add.addEventListener('click',addtion);
+// minus
+// let Default = 0;
+// function addt(){
+//     Default = Default+ parseInt(number.value);
+//     showResult(Default);
+// }
+// function showResult(Default) {
+//     result.textContent =Default;
+// }
+// minus.addEventListener('click',addt);
