@@ -5,7 +5,7 @@ const divide=document.getElementById("divide");
 const module=document.getElementById("module");
 const tiems=document.getElementById("tiems");
 const number=document.getElementById("number");
-const result=document.getElementById("result");
+const Result=document.getElementById("Result");
 
 let DefaultResult = 0;
 function addtion(){
@@ -13,16 +13,26 @@ function addtion(){
     showResult(DefaultResult);
 }
 function showResult(DefaultResult) {
-    result.textContent =DefaultResult;
+    Result.textContent =DefaultResult;
 }
 add.addEventListener('click',addtion);
-// minus
-// let Default = 0;
-// function addt(){
-//     Default = Default+ parseInt(number.value);
-//     showResult(Default);
+let Default = 1;
+function addt(){
+    Default = Default* parseInt(number.value);
+    showResult(Default);
+}
+function showResult(Default) {
+    Result.textContent =Default;
+}
+module.addEventListener('click',addt);
+// let num = 5;
+// if(num ==5){
+// alert("hi dear welcom to class")
 // }
-// function showResult(Default) {
-//     result.textContent =Default;
+// let isadmin =true;
+// if(isadmin){
+//     console("hi dear teacher")
 // }
-// minus.addEventListener('click',addt);
+// else{
+//     console.log("how are you")
+// }
