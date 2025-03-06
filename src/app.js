@@ -25,14 +25,14 @@ function showResult(Default) {
     Result.textContent =Default;
 }
 module.addEventListener('click',addt);
-// let num = 5;
-// if(num ==5){
-// alert("hi dear welcom to class")
-// }
-// let isadmin =true;
-// if(isadmin){
-//     console("hi dear teacher")
-// }
-// else{
-//     console.log("how are you")
-// }
+let num = 5;
+if(num ==5){
+alert("hi dear welcom to class")
+}
+let isadmin =true;
+if(isadmin){
+    console.log("hi dear teacher")
+}
+else{
+    console.log("how are you")
+}
