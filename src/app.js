@@ -36,3 +36,19 @@ if(isadmin){
 else{
     console.log("how are you")
 }
+const a = 9;
+if (a==8){
+    console.log("hi deer")
+}
+else if(a=== "9"){
+    console.log("naz sharifi")
+}
+else if(a !==9){
+        console.log("hellow")
+    }
+else if (true){
+    console.log("horayy")
+}
+else{
+    console.log("good by")
+}
