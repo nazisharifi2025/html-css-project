@@ -495,6 +495,12 @@
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
+  .mr-\[10px\] {
+    margin-right: 10px;
+  }
+  .mr-\[15px\] {
+    margin-right: 15px;
+  }
   .mr-\[58px\] {
     margin-right: 58px;
   }
@@ -510,14 +516,35 @@
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
+  .ml-\[50px\] {
+    margin-left: 50px;
+  }
   .ml-\[55px\] {
     margin-left: 55px;
   }
   .ml-\[65px\] {
     margin-left: 65px;
   }
+  .ml-\[80px\] {
+    margin-left: 80px;
+  }
   .ml-\[115px\] {
     margin-left: 115px;
+  }
+  .ml-\[140px\] {
+    margin-left: 140px;
+  }
+  .ml-\[180px\] {
+    margin-left: 180px;
+  }
+  .ml-\[200px\] {
+    margin-left: 200px;
+  }
+  .ml-\[240px\] {
+    margin-left: 240px;
+  }
+  .ml-\[260px\] {
+    margin-left: 260px;
   }
   .box-border {
     box-sizing: border-box;
@@ -683,6 +710,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
