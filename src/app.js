@@ -52,3 +52,8 @@ else if (true){
 else{
     console.log("good by")
 }
+let name2="nazi"
+let lastname="sharifi"
+if (name2==="nazi" || lastname==="yawari"){
+console.log("hi naz")
+}
