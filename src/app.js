@@ -57,3 +57,43 @@ let lastname="sharifi"
 if (name2==="nazi" || lastname==="yawari"){
 console.log("hi naz")
 }
+const name3 = "sara";
+const name4 = "nazi";
+const lastname2 = "hamdam";
+const lastname3 = "sharifi";
+const age1 = 18;
+const age2 = 19 ;
+// if ((name3 === "sara" && lastname2 === "hamdam") ||( name4 === "nazi" && age2 ===19)){
+//     console.log ("hi sara or nazi");
+// }
+// else if(name4 === "sara" || age2===19 || lastname3==="sharifi" && age1===18){
+//     console.log("I'm Happy")
+// }
+// else if(lastname2==="hamdam" && age1===18 && name3==="sara"){
+//     console.log("Good morning");
+// }
+// else if(name4==="nazi" && age2==="19" && lastname3==="sharifi" || lastname2=="sharifi" && age2===18 || name3==="nazi"){
+//     console.log("we con not");
+// }
+// else if ((age1===18 && lastname3==="sharifi" || lastname2==="hamdam" ||name3==="sara") && lastname3==="sharifi"){
+//     console.log("nazi sharifi")
+// }
+// let n= name3==="sara"? "hi dear sara": "we connt recognize you";
+console.log("ahmad");
+for(let i= 0; i<9;i++){
+    console.log("ahmad");
+}
+console.log("hi");
+console.log("hello")
+for (let p=0 ;p,10; p++){
+    if(p%2 ===0){
+        console.log("hi")
+    }
+    else{
+        console.log("hello")
+    }
+}
+let arr =[1,2,3,4,5,6,7,8,9,10];
+for(let i =0; i<arr.length; i++){
+    console.log(arr[i]);    
+}
