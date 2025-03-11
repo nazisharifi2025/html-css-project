@@ -85,7 +85,7 @@ for(let i= 0; i<9;i++){
 }
 console.log("hi");
 console.log("hello")
-for (let p=0 ;p,10; p++){
+for (let p=0 ;p<10; p++){
     if(p%2 ===0){
         console.log("hi")
     }
@@ -93,7 +93,8 @@ for (let p=0 ;p,10; p++){
         console.log("hello")
     }
 }
-let arr =[1,2,3,4,5,6,7,8,9,10];
-for(let i =0; i<arr.length; i++){
-    console.log(arr[i]);    
-}
+// let arr =[1,2,3,4,5,6,7,8,9,10];
+// for(let i =0; i<arr.length; i++){
+//     if()
+// }
+for(let i = 0; i<9 ;i==)

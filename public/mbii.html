@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="./fonts/Iranian Sans.ttf">
     <link rel="stylesheet" href="fonts/B-NAZANIN.TTF">
     <link rel="stylesheet" href="../src/output.css">
+    <style>
+        .nineteen{
+            display: none;
+        }
+        #html:checked ~ .nineteen{
+            display: block;
+        }
+    </style>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
@@ -33,19 +42,19 @@
         <div class="flex flex-col justify-start">
             <div class="flex ml-[260px] my-5">
                 <form action="">
-            <input type="radio" id="css" value="css"> 
+            <input type="radio" id="css" name="age" value="css"> 
             <label for="css" class="mr-[15px] font-bold text-gray-500">سن نزده سال یا بالاتر</label>
         </div>
         <div class="flex">
-            <input type="radio" id="html" value="html">
+            <input type="radio" id="html" value="html" name="age">
             <label for="html" class="mr-[15px]  font-bold text-gray-500">سن کمتر از نزده سال</label>
         </form>
     </div>  
-        <div>
-        <form action="" class="mx-auto">
-            <div cl>
+        <div class="hidden" id="i">
+        <form action="" class="mx-auto flex gap-20 mt-7 text-gray-600 justify-center">
+            <div class="flex flex-col mx-[12px] justify-center text-center">
             <label for="naz">ماه تولد </label>
-            <select name="naz" id="naz">
+            <select name="naz" id="naz" class="bg-black border border-white outline-1 outline-gray-500 w-[130px] rounded-[7px]">
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
@@ -56,28 +65,32 @@
                
             </select>
         </div>
-        <div>
+        <div class="flex flex-col text-center">
             <label for="bhar">سال تولد</label>
-            <select name="bhar" id="bhar"> 
+            <select name="bhar" id="bhar" class="bg-black border border-white outline-1 outline-gray-500 w-[130px] rounded-[7px]"> 
                 <option value="">1381</option>
                 <option value="">1382</option>
                 <option value="">1383</option>
                 <option value="">1384</option>
             </select>
+            </div>
+            <div class="flex flex-col text-center">
             <label for="ge">جنسیت</label>
-              <select name="ge" id="ge">
+              <select name="ge" id="ge" class="bg-black border border-white outline-1 outline-gray-500 w-[130px] rounded-[7px]">
                 <option value="">دختر</option>
                 <option value="">پسر</option>
               </select>
+            </div>
         </form>
     </div>
     </div>
-        </div>
+      
         <div class="flex my-[50px] ml-[40px]">
             <div class="w-[130px] h-0 mt-[18px] border-2 ml-8 border-gray-500"></div>
             <button class="bg-blue-300 rounded-3xl w-[220px] h-[40px] text-gray-500">محاسبه</button>
         </div>
     </div>
+</div>
     <div class="w-[100%] h-[130px] py-[35px] flex justify-center mt-[140px] items-center bg-green-50 gap-80">
         <div class="text-center">
             <span class="material-symbols-outlined  text-yellow-700 font-bold " style="font-size: 34px;">
@@ -159,6 +172,7 @@
             کاپی برداری از هرگونه محتوای سایت مجاز نمی باشد
         </p>
     </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo eaque excepturi officia hic natus quos repellendus et eos impedit, molestiae quam similique? Ducimus enim maxime veniam distinctio assumenda ullam!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo eaque excepturi officia hic natus quos repellendus et eos impedit, molestiae quam similique? Ducimus enim maxime veniam distinctio assumenda ullam!</p>
 </body>
 </html>
