@@ -16,10 +16,10 @@ function showingresolt(){
     let userChois = +num.value;
     let computerChois = Math.random()*300;
     if(userChois> computerChois){
-resolt.textContent = "you Won"
+resolt.textContent = "you Won!"
     }
     else if(computerChois>userChois){
-resolt.textContent = "Computer Won"
+resolt.textContent = "Computer Won!"
     }
     else{
 resolt.textContent = "You have choisen equal number"
