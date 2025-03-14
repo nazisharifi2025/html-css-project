@@ -58,3 +58,24 @@ break;
 default:
     console.log(21)
 }
+let daten= new Date().getFullYear();
+switch(daten){
+    case 2020:
+        console.log(2020);
+        break;
+        case 2021:
+            console.log(2021);
+            break;
+            case 2022:
+                console.log(2022);
+                break;
+                case 2023:
+                    console.log(2023);
+                    break;
+                    case 2024 :
+                        console.log(2024);
+                        break;
+                        case 2025:
+                            console.log(2025);
+                            break
+}
