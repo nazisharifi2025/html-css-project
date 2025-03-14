@@ -16,7 +16,7 @@ switch(s){
                 console.log("no isent");
                 break;
 }
-let date = new date().getday();
+let date = new Date().getDay();
 switch(date){
     case 1:
         console.log("Monday");
@@ -43,4 +43,18 @@ switch(date){
                         console.log("Tise is not the valid day number");
                         break;   
 
+}
+let time = new Date().getHours();
+switch(time){
+    case 19:
+        console.log(19);
+        break;
+        case 18:
+            console.log(18);
+            break;
+            case 20:
+console.log(20);
+break;
+default:
+    console.log(21)
 }
