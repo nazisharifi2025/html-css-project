@@ -79,3 +79,12 @@ switch(daten){
                             console.log(2025);
                             break
 }
+for(let a= 6;a<10 ;a++){
+    switch(a){
+        case 8:
+            break;
+            default:
+                console.log("no number");
+                break
+    }
+}
