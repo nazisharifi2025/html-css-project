@@ -26,6 +26,7 @@ else{
 let f =["naz",18,"sharifa",23,true,
     {
         name1:"naz",
-        lastName:"sharifi";
+        lastName:"sharifi",
+        age:"18",
     }
 ]
