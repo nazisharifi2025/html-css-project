@@ -11,3 +11,6 @@ console.log(s);
 if(length.s===6){
     console.log("hi naz");
 }
+else if(length.s===5){
+    
+}
