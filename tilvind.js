@@ -17,3 +17,6 @@ else if(length.s===5){
 else if(length.s===4){
     console.log("thes is 4");
 }
+else if(){
+    
+}
