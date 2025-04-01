@@ -8,6 +8,6 @@ function Date(){
 }
 let s=[1,2,3,23,12,45,54];
 console.log(s);
-if(length.s===7){
-
+if(length.s===6){
+    console.log("hi naz");
 }
