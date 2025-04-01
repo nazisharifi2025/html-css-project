@@ -29,4 +29,5 @@ let f =["naz",18,"sharifa",23,true,
         lastName:"sharifi",
         age:"18",
     }
-]
+];
+console.log(f);
