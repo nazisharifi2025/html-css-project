@@ -7,3 +7,4 @@ function Date(){
     
 }
 let s=[1,2,3,23,12,45,54];
+console.log(s);
