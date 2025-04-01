@@ -23,4 +23,4 @@ else if(length.s===7){
 else{
     console.log("no it is.")
 }
-let f =["naz",23]
+let f =["naz",23,"sharifa"]
