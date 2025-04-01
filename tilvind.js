@@ -20,3 +20,6 @@ else if(length.s===4){
 else if(length.s===7){
     console.log("thes is 7");
 }
+else{
+    console.log("no it is.")
+}
