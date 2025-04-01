@@ -12,5 +12,5 @@ if(length.s===6){
     console.log("hi naz");
 }
 else if(length.s===5){
-    
+    console.log("thes is 5");
 }
