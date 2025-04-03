@@ -11,7 +11,7 @@ setInterval(()=>{
     let hours = currentTime.getHours();
     let menutes = currentTime.getMinutes();
     let second = currentTime.getSeconds();
-//     document.getElementById("hov").innerHTML = hours;
+    document.getElementById("hov").innerHTML = hours;
 //     document.getElementById("min").innerHTML = menutes;
 //     document.getElementById("sco").innerHTML = second;
 // },1000)
