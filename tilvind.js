@@ -1,14 +1,20 @@
-const hrs = document.getElementById("hov");
-const min = document.getElementById("min");
-const sec = document.getElementById("sco");
+// const hrs = document.getElementById("hov");
+// const min = document.getElementById("min");
+// const sec = document.getElementById("sco");
 
-let currentTime = new Data();
+let currentTime = new Date();
 let hours = currentTime.getHours();
-
-
-function Date(){
-    
-}
+let menutes = currentTime.getMinutes();
+let second = currentTime.getSeconds();
+setInterval(()=>{
+//     let currentTime = new Date();
+//     let hours = currentTime.getHours();
+//     let menutes = currentTime.getMinutes();
+//     let second = currentTime.getSeconds();
+//     document.getElementById("hov").innerHTML = hours;
+//     document.getElementById("min").innerHTML = menutes;
+//     document.getElementById("sco").innerHTML = second;
+// },1000)
 // let s=[1,2,3,23,12,45,54];
 // console.log(s);
 // if(length.s===6){
